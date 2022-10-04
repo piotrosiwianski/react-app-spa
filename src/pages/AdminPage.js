@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route, Navigate} from 'react-router-dom';
 
-const permission = true;
+const permission = false;
+//Jak bedzie 'true' to pojawi sie "Strona admina".
 
 const AdminPage = () => {
     return ( 
